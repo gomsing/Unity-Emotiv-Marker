@@ -13,8 +13,8 @@ Open the Package Manager Window, click on the `+` dropdown, and [choose `Add
 
 3. In instances where marker is needed, use this function.
 
-'''
+```
 // assign markerNum (e.g. 200 for trial onset)
 markerNum = 300;
 this.GetComponent<MarkerSender>().SendMarker(markerNum, epochNow);
-'''
+```
