@@ -14,3 +14,8 @@ Open the Package Manager Window, click on the `+` dropdown, and [choose `Add
 markerNum = 300;
 this.GetComponent<MarkerSender>().SendMarker(markerNum, epochNow);
 ```
+
+## 3. Emotiv Inlet stream
+
+In Emotiv Pro, go to setting and go to Lab Streaming Layer tab. From 'inlet', select the marker stream and connet. 
+The marker stream is only detected when Unity is on play. 
