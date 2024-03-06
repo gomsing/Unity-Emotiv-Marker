@@ -64,7 +64,7 @@ public class MarkerSender : MonoBehaviour
                 string.Join(", ", sample) +
                 Environment.NewLine;
 
-            File.AppendAllText(ExpInfo.UserID + "_" + currentScene+ "_" + "marker.csv", value);
+            File.AppendAllText(currentScene+ "_" + "marker.csv", value);
 
         }
         else
@@ -81,7 +81,7 @@ public class MarkerSender : MonoBehaviour
         "CurrentTime" +  
         Environment.NewLine;
 
-        File.AppendAllText(ExpInfo.UserID + "_" + currentScene+ "_" + "marker.csv", variable);
+        File.AppendAllText(currentScene+ "_" + "marker.csv", variable);
 
     }
 }
